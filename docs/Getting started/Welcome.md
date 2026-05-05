@@ -4,7 +4,7 @@
 <iframe
   width="100%"
   height="400"
-  src="https://www.youtube-nocookie.com/embed/Jh72_O4pXE"
+  src="https://www.youtube-nocookie.com/embed/9wAs-NJiHww"
   title="YouTube video"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
