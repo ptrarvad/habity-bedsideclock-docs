@@ -14,6 +14,17 @@ export default {
     },
     logoLink: 'https://habity.design',
     siteTitle: false,
+
+    search: {
+      provider: 'local'
+    },
+
+    socialLinks: [
+      { icon: 'instagram', link: 'https://www.instagram.com/habity.design/' },
+      { icon: 'youtube', link: 'https://youtube.com/@habity.design' },
+      { icon: 'facebook', link: 'https://www.facebook.com/habity.design' }
+    ],
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/Getting started/Welcome' },
