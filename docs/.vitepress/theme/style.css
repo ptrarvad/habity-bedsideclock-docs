@@ -18,13 +18,11 @@
   --vp-local-search-highlight-text: #ffffff;
 }
 
-/* Search modal - tonal bg, no amber border */
 .VPLocalSearchBox .shell {
   border: 1px solid var(--vp-c-divider) !important;
   border-radius: 12px !important;
 }
 
-/* Search input - no amber outline */
 .VPLocalSearchBox input {
   border-bottom: 1px solid var(--vp-c-divider) !important;
   outline: none !important;
@@ -37,7 +35,6 @@
   box-shadow: none !important;
 }
 
-/* Search results - tonal hover, no amber border */
 .VPLocalSearchBox .result {
   border: 1px solid transparent !important;
   border-radius: 8px !important;
@@ -49,7 +46,6 @@
   border-color: var(--vp-c-divider) !important;
 }
 
-/* Only the matched text gets amber, not the whole box */
 .VPLocalSearchBox .result .excerpt-value mark,
 .VPLocalSearchBox .result .titles mark {
   color: #c8820a !important;
@@ -109,22 +105,40 @@
 }
 
 /* ── SIDEBAR ACTIVE HIGHLIGHT ───────────────────────── */
-/* Tonal fill for hover */
 .VPSidebarItem > .item > .VPLink:hover,
 .VPSidebarItem > .item > a:hover {
   background-color: var(--vp-c-bg-mute) !important;
   border-radius: 6px !important;
 }
 
-/* Amber left border only for active — no fill */
 .VPSidebarItem.is-active > .item > .VPLink,
 .VPSidebarItem.is-active > .item > a {
-  border-left: 3px solid #c8820a !important;
-  padding-left: 10px !important;
-  color: #c8820a !important;
+  border-left: none !important;
+  padding-left: 12px !important;
+  color: var(--vp-c-text-1) !important;
   font-weight: 600 !important;
+  background-color: var(--vp-c-bg-mute) !important;
+  border-radius: 6px !important;
+}
+
+/* ── PREV/NEXT PAGE BUTTONS ─────────────────────────── */
+.pager-link {
   background-color: var(--vp-c-bg-soft) !important;
-  border-radius: 0 6px 6px 0 !important;
+  border: 1px solid var(--vp-c-divider) !important;
+  border-radius: 8px !important;
+  transition: background-color 0.2s !important;
+}
+
+.pager-link:hover {
+  background-color: var(--vp-c-bg-mute) !important;
+}
+
+.pager-link .title {
+  color: var(--vp-c-text-1) !important;
+}
+
+.pager-link .desc {
+  color: var(--vp-c-text-2) !important;
 }
 
 /* ── BACK TO TOP ────────────────────────────────────── */
