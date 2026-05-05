@@ -1,0 +1,19 @@
+:root {
+  /* Accent color - yellow/orange */
+  --vp-c-brand-1: #f59e0b;
+  --vp-c-brand-2: #d97706;
+  --vp-c-brand-3: #b45309;
+
+  /* Button colors */
+  --vp-button-brand-bg: #f59e0b;
+  --vp-button-brand-hover-bg: #d97706;
+  --vp-button-brand-text: #000000;
+
+  /* Font */
+  --vp-font-family-base: 'Libre Baskerville', serif;
+}
+
+/* Apply font to all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Baskerville', serif !important;
+}
