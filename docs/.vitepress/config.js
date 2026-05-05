@@ -12,11 +12,12 @@ export default {
       light: 'https://habity.design/cdn/shop/files/habity_logo_black.png?v=1760530239',
       dark: 'https://habity.design/cdn/shop/files/habity_logo_white_edb2e4c5-9e72-4486-984c-17f819ff668c.png?v=1760530405'
     },
+    logoLink: 'https://habity.design',
     siteTitle: false,
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/Getting started/Welcome' },
-      { text: 'habity.design', link: 'https://habity.design', target: '_blank' }
+      { text: 'habity.design ↗', link: 'https://habity.design', target: '_blank' }
     ],
     sidebar: [
       {
