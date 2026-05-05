@@ -4,13 +4,13 @@ export default {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/Getting started/Welcome' }
+      { text: 'Getting Started', link: '/Getting started/Hello world' }
     ],
     sidebar: [
       {
         text: 'Getting Started',
         items: [
-          { text: 'Welcome', link: '/Getting started/Welcome' }
+          { text: 'Getting started', link: '/Getting started/Hello world' }
         ]
       },
       {
