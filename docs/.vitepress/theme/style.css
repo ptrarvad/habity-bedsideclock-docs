@@ -1,19 +1,64 @@
 :root {
-  /* Accent color - yellow/orange */
-  --vp-c-brand-1: #f59e0b;
-  --vp-c-brand-2: #d97706;
-  --vp-c-brand-3: #b45309;
+  /* Habity amber/yellow accent */
+  --vp-c-brand-1: #c8820a;
+  --vp-c-brand-2: #a86e09;
+  --vp-c-brand-3: #8a5a07;
 
-  /* Button colors */
-  --vp-button-brand-bg: #f59e0b;
-  --vp-button-brand-hover-bg: #d97706;
-  --vp-button-brand-text: #000000;
+  /* Fonts */
+  --vp-font-family-base: 'Montserrat', sans-serif;
+  --vp-font-family-mono: 'Montserrat', sans-serif;
 
-  /* Font */
-  --vp-font-family-base: 'Libre Baskerville', serif;
+  /* Logo size */
+  --vp-nav-logo-height: 28px;
 }
 
-/* Apply font to all headings */
-h1, h2, h3, h4, h5, h6 {
+/* Light mode - warm cream background */
+:root:not(.dark) {
+  --vp-c-bg: #faf7f2;
+  --vp-c-bg-soft: #f3ede3;
+  --vp-c-bg-mute: #ece5d8;
+  --vp-c-divider: #e0d8cc;
+  --vp-c-text-1: #2c2416;
+  --vp-c-text-2: #5c4f3a;
+
+  /* Sidebar */
+  --vp-sidebar-bg-color: #f3ede3;
+
+  /* Nav */
+  --vp-nav-bg-color: #faf7f2;
+
+  /* Buttons */
+  --vp-button-brand-bg: #c8820a;
+  --vp-button-brand-hover-bg: #a86e09;
+  --vp-button-brand-text: #ffffff;
+}
+
+/* Dark mode */
+.dark {
+  --vp-c-bg: #1a1710;
+  --vp-c-bg-soft: #242018;
+  --vp-c-bg-mute: #2e2a1f;
+
+  --vp-button-brand-bg: #c8820a;
+  --vp-button-brand-hover-bg: #e09412;
+  --vp-button-brand-text: #ffffff;
+}
+
+/* Headings - Libre Baskerville only */
+h1, h2, h3, h4, h5, h6,
+.vp-doc h1, .vp-doc h2, .vp-doc h3,
+.vp-doc h4, .vp-doc h5, .vp-doc h6 {
   font-family: 'Libre Baskerville', serif !important;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Nav title font */
+.VPNavBarTitle .title {
+  font-family: 'Libre Baskerville', serif !important;
+}
+
+/* Slightly rounder sidebar active link */
+.VPSidebarItem.is-active > .item .link {
+  border-radius: 6px;
 }
