@@ -2,11 +2,28 @@
 layout: home
 
 hero:
-  name: My Product
-  text: Documentation
-  tagline: Everything you need to get started
+  name: "Habity"
+  text: "Bedside Clock Documentation"
+  tagline: "Everything you need to set up and get the most out of your Habity clock."
+  image:
+    src: https://habity.design/cdn/shop/files/Soft-white_front_2026-02-24.png?v=1772449307
+    alt: Habity Bedside Clock
   actions:
     - theme: brand
-      text: Get Started
-      link: /Getting Started
+      text: Get Started →
+      link: /Getting started/Welcome
+    - theme: alt
+      text: habity.design ↗
+      link: https://habity.design
+
+features:
+  - icon: 🌅
+    title: Gentle mornings
+    details: Customise your wake-up schedule with calm alarm tones and a soft sunrise light.
+  - icon: 🌙
+    title: Better sleep
+    details: Fall asleep to nature sounds and white noise. No Wi-Fi required, no blue light.
+  - icon: 📵
+    title: Phone-free nights
+    details: Replace your phone on the bedside table and build healthier evening habits.
 ---

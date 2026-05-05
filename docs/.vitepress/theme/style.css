@@ -13,11 +13,6 @@
 }
 
 /* ── SEARCH ─────────────────────────────────────────── */
-.VPNavBarSearch .DocSearch-Button {
-  border-radius: 8px !important;
-}
-
-/* Search modal accent */
 :root {
   --vp-local-search-highlight-bg: #c8820a;
   --vp-local-search-highlight-text: #ffffff;
@@ -74,6 +69,72 @@
   background-color: #1c1a14 !important;
 }
 
+/* ── SIDEBAR ACTIVE HIGHLIGHT ───────────────────────── */
+.VPSidebarItem.is-active > .item > .VPLink,
+.VPSidebarItem.is-active > .item > a {
+  border-left: 3px solid #c8820a !important;
+  padding-left: 10px !important;
+  color: #c8820a !important;
+  font-weight: 600 !important;
+  background-color: transparent !important;
+}
+
+/* ── BACK TO TOP ────────────────────────────────────── */
+.VPBackToTop {
+  background-color: #c8820a !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+}
+
+/* ── FOOTER ─────────────────────────────────────────── */
+.VPFooter {
+  border-top: 1px solid var(--vp-c-divider) !important;
+}
+
+.VPFooter .message a {
+  color: #c8820a !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.VPFooter .message a:hover {
+  text-decoration: underline;
+}
+
+/* ── CALLOUT BOXES ──────────────────────────────────── */
+/* Usage in markdown:
+   ::: tip Title
+   Your tip text
+   :::
+
+   ::: warning Title
+   Your warning text
+   :::
+
+   ::: info Title
+   Your info text
+   :::
+*/
+
+.custom-block.tip {
+  border-color: #c8820a !important;
+  background-color: rgba(200, 130, 10, 0.08) !important;
+}
+
+.custom-block.tip .custom-block-title {
+  color: #c8820a !important;
+}
+
+.custom-block.warning {
+  border-color: #e05c0a !important;
+  background-color: rgba(224, 92, 10, 0.08) !important;
+}
+
+.custom-block.info {
+  border-color: #6b8fa3 !important;
+  background-color: rgba(107, 143, 163, 0.08) !important;
+}
+
 /* ── HEADINGS ───────────────────────────────────────── */
 h1, h2, h3, h4, h5, h6,
 .vp-doc h1, .vp-doc h2, .vp-doc h3,
@@ -85,4 +146,11 @@ h1, h2, h3, h4, h5, h6,
 
 .VPSidebarItem .text {
   font-family: 'Montserrat', sans-serif !important;
+}
+
+/* ── HOMEPAGE HERO IMAGE ────────────────────────────── */
+.VPHero .image-src {
+  max-width: 280px !important;
+  border-radius: 16px !important;
+  box-shadow: 0 24px 48px rgba(0,0,0,0.15) !important;
 }

@@ -30,6 +30,7 @@ export default {
       { text: 'Getting Started', link: '/Getting started/Welcome' },
       { text: 'habity.design ↗', link: 'https://habity.design', target: '_blank' }
     ],
+
     sidebar: [
       {
         text: 'Getting Started',
@@ -44,9 +45,16 @@ export default {
         ]
       }
     ],
+
     footer: {
-      message: 'Habity Bedsideclock Documentation',
-      copyright: '© 2026 Habity ApS'
-    }
+      message: `
+        <a href="https://habity.design" target="_blank">habity.design</a> ·
+        <a href="https://habity.design/contact" target="_blank">Contact & Support</a> ·
+        <a href="https://habity.design/policies/privacy-policy" target="_blank">Privacy Policy</a>
+      `,
+      copyright: '© 2026 Habity ApS — Designed in Copenhagen'
+    },
+
+    returnToTopLabel: 'Back to top'
   }
 }
