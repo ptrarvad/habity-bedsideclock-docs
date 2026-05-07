@@ -50,7 +50,7 @@ export default {
       {
         text: 'Sleep sounds',
         items: [
-          { text: 'Sleep sounds', link: '/Sleep_sounds/Sleep_sounds' }
+          { text: 'Sleep sounds', link: '/Sleep_sound/Sleep_sounds' }
         ]
       },
       {
