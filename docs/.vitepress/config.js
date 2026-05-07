@@ -27,7 +27,7 @@ export default {
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/Getting started/First_setup' },
+      { text: 'Getting Started', link: '/Getting_started/First_setup' },
       { text: 'habity.design ↗', link: 'https://habity.design', target: '_blank' }
     ],
 
@@ -35,45 +35,44 @@ export default {
       {
         text: 'Getting Started',
         items: [
-          { text: 'First setup', link: '/Getting_started/First_setup' }
+          { text: 'First Setup', link: '/Getting_started/First_setup' },
           { text: 'Controls', link: '/Getting_started/Controls' }
-        
-
         ]
       },
       {
         text: 'Alarm',
         items: [
-          { text: 'Alarm', link: '/Alarm/How_to_set_my_alarm' }
+          { text: 'How to Set My Alarm', link: '/Alarm/How_to_set_my_alarm' }
         ]
       },
       {
-        text: 'Sleep sounds',
+        text: 'Sleep Sounds',
         items: [
-          { text: 'Sleep sounds', link: '/Sleep_sound/Sleep_sound' }
+          { text: 'Sleep Sounds', link: '/Sleep_sound/Sleep_sound' }
         ]
       },
       {
         text: 'Connectivity',
         items: [
-          { text: 'How to connect to wi-fi', link: '/Connectivity/Connect_to_Wi-Fi' }
-          { text: 'Philips Hue', link: '/Connectivity/Philips_Hue' }
+          { text: 'Connect to Wi-Fi', link: '/Connectivity/Connect_to-Wi-Fi' },
+          { text: 'Philips Hue', link: '/Connectivity/Philips_Hue' },
           { text: 'Home Assistant', link: '/Connectivity/Home_Assistant' }
         ]
       },
       {
         text: 'More',
         items: [
-          { text: 'Idle screen', link: '/More/Idle_screen' }
-          { text: 'Travel lock', link: '/More/travel_lock' }
-          { text: 'How to Update', link: '/More/How_to_update' }
+          { text: 'Idle Screen', link: '/More/Idle_screen' },
+          { text: 'Travel Lock', link: '/More/Travel_lock' },
+          { text: 'How to Update', link: '/More/How_to_update' },
           { text: 'Tips', link: '/More/Tips' }
         ]
       },
       {
         text: 'Troubleshooting',
         items: [
-          { text: 'Troubleshooting', link: '/Troubleshooting/Troubleshooting' }
+          { text: 'Troubleshooting', link: '/Troubleshooting/Troubleshooting' },
+          { text: 'Factory Reset', link: '/Troubleshooting/Factory_reset' }
         ]
       }
     ],
