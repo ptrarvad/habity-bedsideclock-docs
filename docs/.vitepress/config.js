@@ -27,7 +27,7 @@ export default {
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/Getting started/Welcome' },
+      { text: 'Getting Started', link: '/Getting started/First_setup' },
       { text: 'habity.design ↗', link: 'https://habity.design', target: '_blank' }
     ],
 
@@ -35,8 +35,8 @@ export default {
       {
         text: 'Getting Started',
         items: [
-          { text: 'First setup', link: '/Getting started/First_setup' }
-          { text: 'Controls', link: '/Getting started/Controls' }
+          { text: 'First setup', link: '/Getting_started/First_setup' }
+          { text: 'Controls', link: '/Getting_started/Controls' }
         
 
         ]
@@ -50,7 +50,7 @@ export default {
       {
         text: 'Sleep sounds',
         items: [
-          { text: 'Sleep sounds', link: '/Sleep sounds/Sleep_sounds' }
+          { text: 'Sleep sounds', link: '/Sleep_sounds/Sleep_sounds' }
         ]
       },
       {
