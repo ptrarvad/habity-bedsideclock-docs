@@ -35,7 +35,7 @@ export default {
       {
         text: 'Getting Started',
         items: [
-          { text: 'First setup', link: '/Getting started/First setup' }
+          { text: 'First setup', link: '/Getting started/First_setup' }
           { text: 'Controls', link: '/Getting started/Controls' }
         
 
@@ -44,29 +44,29 @@ export default {
       {
         text: 'Alarm',
         items: [
-          { text: 'Alarm', link: '/Alarm/How to set my alarm' }
+          { text: 'Alarm', link: '/Alarm/How_to_set_my_alarm' }
         ]
       },
       {
         text: 'Sleep sounds',
         items: [
-          { text: 'Sleep sounds', link: '/Sleep sounds/Sleep sounds' }
+          { text: 'Sleep sounds', link: '/Sleep sounds/Sleep_sounds' }
         ]
       },
       {
         text: 'Connectivity',
         items: [
-          { text: 'How to connect to wi-fi', link: '/Connectivity/Connect to Wi-Fi' }
-          { text: 'Philips Hue', link: '/Connectivity/Philips Hue' }
-          { text: 'Home Assistant', link: '/Connectivity/Home Assistant' }
+          { text: 'How to connect to wi-fi', link: '/Connectivity/Connect_to_Wi-Fi' }
+          { text: 'Philips Hue', link: '/Connectivity/Philips_Hue' }
+          { text: 'Home Assistant', link: '/Connectivity/Home_Assistant' }
         ]
       },
       {
         text: 'More',
         items: [
-          { text: 'Idle screen', link: '/More/Idle screen' }
-          { text: 'Travel lock', link: '/More/travel lock' }
-          { text: 'How to Update', link: '/More/How to update' }
+          { text: 'Idle screen', link: '/More/Idle_screen' }
+          { text: 'Travel lock', link: '/More/travel_lock' }
+          { text: 'How to Update', link: '/More/How_to_update' }
           { text: 'Tips', link: '/More/Tips' }
         ]
       },
