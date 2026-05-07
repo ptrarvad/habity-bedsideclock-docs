@@ -31,6 +31,6 @@ Active alarms that are within the next 24 hours will show up below the current t
 If wind down reminder is enabled it will also show up below the current time. 
 Times are shown in sequential order.
 
-![Watch face with alarm time](Assets/Watch-face_w_alarm-time.png)
+![Watch face with alarm time](docs/Assets/Watch-face_w_alarm-time.png)
 ## Controls
 Learn about controls for stopping, snoozing, and skipping alarm.
