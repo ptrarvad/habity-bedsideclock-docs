@@ -35,7 +35,39 @@ export default {
       {
         text: 'Getting Started',
         items: [
-          { text: 'Welcome', link: '/Getting started/Welcome' }
+          { text: 'First setup', link: '/Getting started/First setup' }
+          { text: 'Controls', link: '/Getting started/Controls' }
+        
+
+        ]
+      },
+      {
+        text: 'Alarm',
+        items: [
+          { text: 'Alarm', link: '/Alarm/How to set my alarm' }
+        ]
+      },
+      {
+        text: 'Sleep sounds',
+        items: [
+          { text: 'Sleep sounds', link: '/Sleep sounds/Sleep sounds' }
+        ]
+      },
+      {
+        text: 'Connectivity',
+        items: [
+          { text: 'How to connect to wi-fi', link: '/Connectivity/Connect to Wi-Fi' }
+          { text: 'Philips Hue', link: '/Connectivity/Philips Hue' }
+          { text: 'Home Assistant', link: '/Connectivity/Home Assistant' }
+        ]
+      },
+      {
+        text: 'More',
+        items: [
+          { text: 'Idle screen', link: '/More/Idle screen' }
+          { text: 'Travel lock', link: '/More/travel lock' }
+          { text: 'Update', link: '/More/How to update' }
+          { text: 'Tips', link: '/More/Tips' }
         ]
       },
       {
