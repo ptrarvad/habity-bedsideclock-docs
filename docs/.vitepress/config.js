@@ -66,7 +66,7 @@ export default {
         items: [
           { text: 'Idle screen', link: '/More/Idle screen' }
           { text: 'Travel lock', link: '/More/travel lock' }
-          { text: 'Update', link: '/More/How to update' }
+          { text: 'How to Update', link: '/More/How to update' }
           { text: 'Tips', link: '/More/Tips' }
         ]
       },
