@@ -1,6 +1,9 @@
+# Travel lock
 The travel lock function is useful when want to avoid any buttons accidentally being pressed and thereby changing settings.
 
 Helpful for traveling and storing the clock for longer periods.
+
+![[travel-lock.png]]
 
 ## How to lock
 Go to "More" > "Display settings" > "Travel lock". 

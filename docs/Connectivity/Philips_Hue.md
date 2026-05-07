@@ -1,3 +1,4 @@
+# Philips Hue Integration
 Your bedside clock can integrate with Philips Hue Smart Home Lighting. Supporting activating scenes, turning off lights, and gradually turn on lights to use as wake-up light.
 
 ## Connect Philips Hue

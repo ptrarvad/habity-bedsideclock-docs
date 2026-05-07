@@ -1,32 +1,28 @@
-
-
+# First setup
 This guide will help you set up your bedside clock and your new sleep routine.
 
 ## 1. Connect to power
-
 The clock should be in a travel mode upon setting it up for the first time. To unlock the clock and start using it you need to connect it to power via the included USB-C cable. 
 Most wall power adapters (like your phone charger) should work for this purpose.
 
 
 ## 2. Unlock the clock
-
 Once the clock have started charging its built-in battery it will update the display to "Press and hold". Keep it connected to power.
 
-Image
+![[travel-lock-1.png]]
 
-The clock is still in travel lock mode. To unlock it press and hold the button on the selector wheel for more than 5 sec. The clock will display a time once its unlocked and ready.
+The clock is still in travel lock mode. To unlock it press and hold the button on the selector wheel for at least 5 sec. The clock will display a time once its unlocked and ready.
 
 ## 3. Set the current date & time
-
 Now that your clock is connected to power you might need to set the correct date & time for your location, as well as time format (24 or 12-hour).
 
-#### Step 1
+**Step 1**
 Enter the menu by pressing the selector wheel.
 
-#### Step 2
+**Step 2**
 Go to "More" > "Date & time". Use the selector wheel to navigate and enter settings.
 
-#### Step 3
+**Step 3**
 Choose between "Manual" or "Automatic" setup by pressing the selector wheel and start setting up the date & time på selecting "Settings" and follow the instructions.
 
 > [!NOTE]
@@ -34,7 +30,7 @@ Choose between "Manual" or "Automatic" setup by pressing the selector wheel and 
 > 
 > 
 
-##### Daylight savings
+## Daylight savings
 By using the automatic setup process your clock will switch to daylight savings automatically as it syncs the time online every night.
 
 

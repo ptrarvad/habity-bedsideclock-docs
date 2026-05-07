@@ -1,3 +1,4 @@
+# How to connect to Wi-Fi
 Connect your bedside clock to your home Wi-Fi in order to use features such as Automatic Date & Time setup, updating firmware, and connecting to smart homes.
 
 ## Initial setup
@@ -18,16 +19,17 @@ On this webpage you can see a list of available Wi-Fi networks. Select your home
 > [!NOTE]
 > The Habity bedside clock can only connect to 2.4Ghz Wi-Fi. Most common home Wi-Fi should be accepted by default.
 
-#### Web control page
+## Visit web control page
 Once your clock have rebooted, and Wi-Fi credentials were correct and successfully connected, you may visit the control page.
 
 On the control page you can update the firmware, see current firmware version, connect to smart homes, and update Wi-Fi settings.
 
 Go to "More" > "Wi-Fi" > "Information" to see the URL of your new control page. 
 
-##### Web browser warning
-Your web browser might warn you about visiting the website. This happens because your clock doesn't talk to any remote servers that your browser can use to verify the origin with - keeping things private, but your browser confused.
-
-Most browser have the option to "Visit anyway" or "Visit unsafe website" to bypass this warning.
+> [!NOTE]
+> **Web browser warning**
+> Your web browser might warn you about visiting the website. This happens because your clock doesn't talk to any remote servers that your browser can use to verify the origin with - keeping things private, but your browser confused.
+> 
+> Most browser have the option to "Visit anyway" or "Visit unsafe website" to bypass this warning.
 
 
