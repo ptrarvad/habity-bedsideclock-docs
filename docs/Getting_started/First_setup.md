@@ -9,7 +9,7 @@ Most wall power adapters (like your phone charger) should work for this purpose.
 ## 2. Unlock the clock
 Once the clock have started charging its built-in battery it will update the display to "Press and hold". Keep it connected to power.
 
-![[travel-lock-1.png]]
+![travel-lock-1.png](../Assets/travel-lock-1.png)
 
 The clock is still in travel lock mode. To unlock it press and hold the button on the selector wheel for at least 5 sec. The clock will display a time once its unlocked and ready.
 

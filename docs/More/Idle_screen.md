@@ -3,7 +3,7 @@ The idle screen is the "face screen" you see when the clock has been untouched f
 
 The face minimizes the current time and reminds you to focus on the calm present.
 
-![[Idle-screen.png]]
+![Idle-screen.png](../Assets/Idle-screen.png)
 
 ## Deactivate
 The idle screen can be deactivated by going to "More" > "Display settings" > "Idle screen".

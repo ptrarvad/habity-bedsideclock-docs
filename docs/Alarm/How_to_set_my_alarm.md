@@ -13,7 +13,7 @@ Repeats one alarm time monday to friday. No alarm on the weekend.
 **Custom**
 Set individual alarm times for every day of the week. Individual days can be disabled/enabled.
 
-![[alarm-modes.png]]
+![alarm-modes.png](../Assets/alarm-modes.png)
 
 Only once mode can be used at a time. Alarm times saved in each mode will persist when switching between modes.
 ## Select Sound
@@ -34,6 +34,6 @@ Active alarms that are within the next 24 hours will show up below the current t
 If wind down reminder is enabled it will also show up below the current time. 
 Times are shown in sequential order.
 
-![[Watch-face_w_alarm-time.png]]
+![Watch-face_w_alarm-time.png](../Assets/Watch-face_w_alarm-time.png)
 ## Controls
 Learn about controls for stopping, snoozing, and skipping alarm.

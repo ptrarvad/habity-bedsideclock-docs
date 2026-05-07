@@ -3,7 +3,7 @@ The travel lock function is useful when want to avoid any buttons accidentally b
 
 Helpful for traveling and storing the clock for longer periods.
 
-![[travel-lock.png]]
+![travel-lock.png](../Assets/travel-lock.png)
 
 ## How to lock
 Go to "More" > "Display settings" > "Travel lock". 
