@@ -14,8 +14,13 @@
 
 /* ── SEARCH ─────────────────────────────────────────── */
 :root {
-  --vp-local-search-highlight-bg: #F3BB14;
+  --vp-local-search-highlight-bg: transparent;
   --vp-local-search-highlight-text: #252421;
+}
+
+.dark {
+  --vp-local-search-highlight-bg: transparent;
+  --vp-local-search-highlight-text: #f0ead8;
 }
 
 .VPLocalSearchBox .shell {
@@ -46,11 +51,20 @@
   border-color: var(--vp-c-divider) !important;
 }
 
+/* Light mode match highlight */
 .VPLocalSearchBox .result .excerpt-value mark,
 .VPLocalSearchBox .result .titles mark {
-  color: #F3BB14 !important;
+  color: #252421 !important;
   background: transparent !important;
-  font-weight: 600;
+  font-weight: 700 !important;
+}
+
+/* Dark mode match highlight */
+.dark .VPLocalSearchBox .result .excerpt-value mark,
+.dark .VPLocalSearchBox .result .titles mark {
+  color: #f0ead8 !important;
+  background: transparent !important;
+  font-weight: 700 !important;
 }
 
 /* ── LIGHT MODE ─────────────────────────────────────── */
@@ -113,7 +127,7 @@
 /* Light mode hover */
 .VPSidebarItem > .item > .VPLink:hover,
 .VPSidebarItem > .item > a:hover {
-  background-color: rgba(243, 187, 20, 0.18) !important;
+  background-color: #E3DFC9 !important;
   border-radius: 6px !important;
   color: #252421 !important;
 }
@@ -125,7 +139,7 @@
   padding-left: 12px !important;
   color: #252421 !important;
   font-weight: 600 !important;
-  background-color: rgba(243, 187, 20, 0.30) !important;
+  background-color: #E3DFC9 !important;
   border-radius: 6px !important;
 }
 
