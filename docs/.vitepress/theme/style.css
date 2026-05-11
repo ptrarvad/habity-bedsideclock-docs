@@ -1,7 +1,7 @@
 :root {
   --vp-c-brand-1: #F3BB14;
-  --vp-c-brand-2: #F3BB14;
-  --vp-c-brand-3: #E3DFC9;
+  --vp-c-brand-2: #d4a310;
+  --vp-c-brand-3: #b58b0d;
   --vp-font-family-base: 'Montserrat', sans-serif;
   --vp-font-family-mono: 'Montserrat', sans-serif;
 }
@@ -14,12 +14,12 @@
 
 /* ── SEARCH ─────────────────────────────────────────── */
 :root {
-  --vp-local-search-highlight-bg: #E3DFC9;
-  --vp-local-search-highlight-text: #ffffff;
+  --vp-local-search-highlight-bg: #F3BB14;
+  --vp-local-search-highlight-text: #252421;
 }
 
 .VPLocalSearchBox .shell {
-  border: 0px solid var(--vp-c-divider) !important;
+  border: 1px solid var(--vp-c-divider) !important;
   border-radius: 12px !important;
 }
 
@@ -48,56 +48,62 @@
 
 .VPLocalSearchBox .result .excerpt-value mark,
 .VPLocalSearchBox .result .titles mark {
-  color: #cF3BB14 !important;
+  color: #F3BB14 !important;
   background: transparent !important;
   font-weight: 600;
 }
 
 /* ── LIGHT MODE ─────────────────────────────────────── */
 :root:not(.dark) {
-  --vp-c-bg: #fFBF9F3;
-  --vp-c-bg-soft: #F7F4E6;
-  --vp-c-bg-mute: #e8dfd2;
-  --vp-c-divider: #E3DFC9;
+  --vp-c-bg: #F7F4E6;
+  --vp-c-bg-soft: #eeebd8;
+  --vp-c-bg-mute: #e4e0cc;
+  --vp-c-divider: #d8d4be;
   --vp-c-text-1: #252421;
-  --vp-c-text-2: #424242;
-  --vp-sidebar-bg-color: #E3DFC9;
+  --vp-c-text-2: #5a5649;
+  --vp-sidebar-bg-color: #eeebd8;
   --vp-nav-bg-color: #F7F4E6;
-  --vp-button-brand-bg: #c8820a;
-  --vp-button-brand-hover-bg: #F3BB14;
-  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-bg: #F3BB14;
+  --vp-button-brand-hover-bg: #d4a310;
+  --vp-button-brand-text: #252421;
 }
 
+/* No divider lines between nav/sidebar and content */
 :root:not(.dark) .VPNav {
-  border-bottom: 0px solid #d4c9b8 !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
 :root:not(.dark) .VPSidebar {
-  border-right: 0px solid #d4c9b8 !important;
+  border-right: none !important;
+  box-shadow: none !important;
 }
 
 /* ── DARK MODE ──────────────────────────────────────── */
 .dark {
   --vp-c-bg: #252421;
-  --vp-c-bg-soft: #252421;
-  --vp-c-bg-mute: #111110;
-  --vp-c-divider: #111110;
-  --vp-c-text-1: #f1f1f1;
-  --vp-c-text-2: #cac7b6;
+  --vp-c-bg-soft: #2e2b28;
+  --vp-c-bg-mute: #38352f;
+  --vp-c-divider: #45423b;
+  --vp-c-text-1: #f0ead8;
+  --vp-c-text-2: #a89e88;
   --vp-sidebar-bg-color: #252421;
   --vp-nav-bg-color: #252421;
-  --vp-button-brand-bg: #c8820a;
-  --vp-button-brand-hover-bg: #F3BB14;
-  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-bg: #F3BB14;
+  --vp-button-brand-hover-bg: #ffd23f;
+  --vp-button-brand-text: #252421;
 }
 
+/* No divider lines in dark mode either */
 .dark .VPNav {
-  border-bottom: 0px solid #3a3628 !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
 .dark .VPSidebar {
-  border-right: 0px solid #3a3628 !important;
-  background-color: #1c1a14 !important;
+  border-right: none !important;
+  box-shadow: none !important;
+  background-color: #252421 !important;
 }
 
 .dark .VPContent {
@@ -159,7 +165,7 @@
 }
 
 .VPFooter .message a {
-  color: #c8820a !important;
+  color: #F3BB14 !important;
   text-decoration: none;
   font-weight: 500;
 }
@@ -171,11 +177,11 @@
 /* ── CALLOUT BOXES ──────────────────────────────────── */
 .custom-block.tip {
   border-color: #F3BB14 !important;
-  background-color: rgba(200, 130, 10, 0.08) !important;
+  background-color: rgba(243, 187, 20, 0.08) !important;
 }
 
 .custom-block.tip .custom-block-title {
-  color: #c8820a !important;
+  color: #b58b0d !important;
 }
 
 .custom-block.warning {
@@ -193,12 +199,21 @@ h1, h2, h3, h4, h5, h6,
 .vp-doc h1, .vp-doc h2, .vp-doc h3,
 .vp-doc h4, .vp-doc h5, .vp-doc h6 {
   font-family: 'Libre Baskerville', serif !important;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.01em;
 }
 
 .VPSidebarItem .text {
   font-family: 'Montserrat', sans-serif !important;
+}
+
+/* ── IMAGES ─────────────────────────────────────────── */
+.vp-doc img {
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  max-width: 100%;
 }
 
 /* ── HOMEPAGE HERO IMAGE ────────────────────────────── */
@@ -207,7 +222,6 @@ h1, h2, h3, h4, h5, h6,
   border-radius: 16px !important;
   box-shadow: 0 24px 48px rgba(0,0,0,0.15) !important;
 }
-
 /* ── IMAGES ─────────────────────────────────────────── */
 .vp-doc img {
   display: block;
