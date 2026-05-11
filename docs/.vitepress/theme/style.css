@@ -170,7 +170,7 @@
 
 /* ── DOC LINKS ──────────────────────────────────────── */
 .vp-doc a {
-  color: #252421 !important;
+  color: inherit !important;
   font-weight: 600 !important;
   text-decoration: underline !important;
 }
