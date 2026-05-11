@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: "Habity"
-  text: "Bedside Clock Documentation"
+  name: 
+  text: "Bedside Clock user manual & support"
   tagline: "Everything you need to set up and get the most out of your Habity bedside clock."
   image:
     src: https://habity.design/cdn/shop/files/Soft-white_front_2026-02-24.png?v=1772449307
@@ -19,11 +19,11 @@ hero:
 features:
   - icon: 🌅
     title: Gentle mornings
-    details: Customise your wake-up schedule with calm alarm tones and a soft sunrise light.
+    details: Customise your wake-up schedule with gentle alarm tones and a soft sunrise light.
   - icon: 🌙
     title: Better sleep
-    details: Fall asleep to nature sounds and white noise. No Wi-Fi required, no blue light.
+    details: Fall asleep to natural sleep sounds. 
   - icon: 📵
     title: Phone-free nights
-    details: Replace your phone on the bedside table and build healthier evening habits.
+    details: Replace your phone on the bedside table and build healthier habits.
 ---

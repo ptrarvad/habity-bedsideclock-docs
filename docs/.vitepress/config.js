@@ -48,19 +48,19 @@ export default {
       {
         text: 'Wind down',
         items: [
-          { text: 'Wind down reminder', link: '/Wind_down/Widn_down_reminder' }
+          { text: 'Wind down reminder', link: '/Wind_down/Wind_down_reminder' }
         ]
       },
       {
         text: 'Sleep Sounds',
         items: [
-          { text: 'Sleep Sounds', link: '/Sleep_sound/Sleep_sound' }
+          { text: 'Sleep Sounds', link: '/Sleep_sounds/Sleep_sounds' }
         ]
       },
       {
         text: 'Connectivity',
         items: [
-          { text: 'Connect to Wi-Fi', link: '/Connectivity/Connect_to-Wi-Fi' },
+          { text: 'Connect to Wi-Fi', link: '/Connectivity/Connect_to_Wi-Fi' },
           { text: 'Philips Hue', link: '/Connectivity/Philips_Hue' },
           { text: 'Home Assistant', link: '/Connectivity/Home_Assistant' }
         ]
