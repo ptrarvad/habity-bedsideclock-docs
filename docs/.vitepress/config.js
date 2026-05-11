@@ -28,7 +28,7 @@ export default {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/Getting_started/First_setup' },
-      { text: 'habity.design ↗', link: 'https://habity.design', target: '_blank' }
+      { text: 'habity.design', link: 'https://habity.design', target: '_blank' }
     ],
 
     sidebar: [
@@ -86,7 +86,7 @@ export default {
     footer: {
       message: `
         <a href="https://habity.design" target="_blank">habity.design</a> ·
-        <a href="https://habity.design/contact" target="_blank">Contact & Support</a> ·
+        <a href="https://habity.design/page/contact" target="_blank">Contact & Support</a> ·
         <a href="https://habity.design/policies/privacy-policy" target="_blank">Privacy Policy</a>
       `,
       copyright: '© 2026 Habity ApS — Designed in Copenhagen'
