@@ -59,6 +59,14 @@
   font-weight: 700 !important;
 }
 
+/* Force title and breadcrumb text to stay dark on hover/selected */
+.VPLocalSearchBox .result.selected .titles,
+.VPLocalSearchBox .result.selected .titles *,
+.VPLocalSearchBox .result:hover .titles,
+.VPLocalSearchBox .result:hover .titles * {
+  color: var(--vp-c-text-1) !important;
+}
+
 /* Dark mode match highlight */
 .dark .VPLocalSearchBox .result .excerpt-value mark,
 .dark .VPLocalSearchBox .result .titles mark {
