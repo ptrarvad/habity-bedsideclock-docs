@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: 
-  text: "Bedside Clock user manual & support"
+  name: "Bedside clock"
+  text: "User manual & support"
   tagline: "Everything you need to set up and get the most out of your Habity bedside clock."
   image:
     src: https://habity.design/cdn/shop/files/Soft-white_front_2026-02-24.png?v=1772449307
