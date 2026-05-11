@@ -29,6 +29,9 @@ Press the selector once to enter the settings and navigate by rotating and press
 **Quick exit shortcut**
 By pressing and holding the selector button, you will exit all the way out of any sub menus.
 
-## Restart
-Next to the USB-C port on the back of the bedside clock you will find a small pinhole. This is the restart button. Press it once to restart the clock. This does not reset or delete any settings.
+## Turning on the display light
+Any interaction with the clock will turn on the display light for 10 seconds. 
+
+## Reboot
+Next to the USB-C port on the back of the bedside clock you will find a small pinhole. This is the reboot button. Press it once to reboot the clock. This does not reset or delete any settings.
 
