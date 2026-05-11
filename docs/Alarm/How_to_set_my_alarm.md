@@ -26,7 +26,7 @@ By default this function is off. Choose between 1 minute, 5 minutes, 10 minutes,
 The setting is set for all enabled alarms no matter the schedule.
 
 > [!NOTE]
-> Learn how to connect your [smart home lights](Connectivity/Philips_Hue) to work in junction with the built-in wake-up light.
+> Learn how to connect your [smart home lights](/Connectivity/Philips_Hue) to work in junction with the built-in wake-up light.
 
 ## Confirm your alarm
 Active alarms that are within the next 24 hours will show up below the current time on the main watch face. 
@@ -36,4 +36,4 @@ Times are shown in sequential order.
 
 ![Watch-face_w_alarm-time.png](../Assets/Watch-face_w_alarm-time.png)
 ## Controls
-Learn about [Controls](Getting_started/Controls.md) for stopping, snoozing, and skipping alarm.
+Learn about [Controls](/Getting_started/Controls) for stopping, snoozing, and skipping alarm.
