@@ -109,27 +109,41 @@
 }
 
 /* ── SIDEBAR ACTIVE HIGHLIGHT ───────────────────────── */
+
+/* Light mode hover */
 .VPSidebarItem > .item > .VPLink:hover,
 .VPSidebarItem > .item > a:hover {
-  background-color: rgba(243, 187, 20, 0.5) !important;
+  background-color: rgba(243, 187, 20, 0.18) !important;
   border-radius: 6px !important;
   color: #252421 !important;
 }
 
+/* Light mode active */
 .VPSidebarItem.is-active > .item > .VPLink,
 .VPSidebarItem.is-active > .item > a {
   border-left: none !important;
   padding-left: 12px !important;
-  color: #ffffff !important;
+  color: #252421 !important;
   font-weight: 600 !important;
-  background-color: #F3BB14 !important;
+  background-color: rgba(243, 187, 20, 0.30) !important;
   border-radius: 6px !important;
 }
 
+/* Dark mode hover */
+.dark .VPSidebarItem > .item > .VPLink:hover,
+.dark .VPSidebarItem > .item > a:hover {
+  background-color: var(--vp-c-bg-mute) !important;
+  border-radius: 6px !important;
+  color: var(--vp-c-text-1) !important;
+}
+
+/* Dark mode active */
 .dark .VPSidebarItem.is-active > .item > .VPLink,
 .dark .VPSidebarItem.is-active > .item > a {
   background-color: var(--vp-c-bg-mute) !important;
   color: var(--vp-c-text-1) !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
 }
 
 /* ── DOC LINKS ──────────────────────────────────────── */
@@ -237,11 +251,4 @@ h1, h2, h3, h4, h5, h6,
   max-width: 280px !important;
   border-radius: 16px !important;
   box-shadow: 0 24px 48px rgba(0,0,0,0.15) !important;
-}
-/* ── IMAGES ─────────────────────────────────────────── */
-.vp-doc img {
-  display: block;
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-  max-width: 100%;
 }
