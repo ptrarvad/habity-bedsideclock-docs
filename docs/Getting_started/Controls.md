@@ -1,23 +1,26 @@
 # Controls
 Learn about the different controls on your bedside clock.
-
+![controls.png](../Assets/controls.png)
 ## Stop button
-The stop button primarily functions as a stop button for active alarms. Press it once to stop the alarm from playing. 
+The stop button primarily functions as a stop button for active alarms. 
 
-**Light toggle**
+**Stop alarm:**
+Press it once to stop the alarm from playing. 
+
+**Light toggle:**
 When an alarm is not active it functions as a light toggle for the built-in nightlight. Press it anytime to toggle it on/off. 
 
-**Skip next alarm**
+**Skip next alarm:**
 The stop button can also be used to skip your next alarm.
 If you have an alarm enabled, and it shows up on the watch face below the current time, then simply double press the stop button to disable that alarm. 
 
 This also works when the alarm is snoozed. 
 
 ## Snooze button
-Pressing snooze on an alarm gives you another 5 minutes in bed. You can snooze as many times as needed.
+Pressing snooze on while an alarm is playing gives you another 5 minutes in bed. You can snooze as many times as needed.
 
 **Play sleep sounds**
-Quickly toggle on your last used sleep sound by double pressing the snooze button. A "zZ" icon will show in upper right corner when sleep soiunds are playing. Use the selector wheel to adjust the volume.
+Quickly toggle on your last used sleep sound by double pressing the snooze button. A "zZ" icon will show in upper right corner when sleep sounds is playing. Use the selector wheel to adjust the volume.
 
 **Pause sounds**
 To pause either sleep sounds or wind down sounds press the snooze button once. 

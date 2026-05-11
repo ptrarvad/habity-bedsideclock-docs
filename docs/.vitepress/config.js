@@ -46,6 +46,12 @@ export default {
         ]
       },
       {
+        text: 'Wind down',
+        items: [
+          { text: 'Wind down reminder', link: '/Wind_down/Widn_down_reminder' }
+        ]
+      },
+      {
         text: 'Sleep Sounds',
         items: [
           { text: 'Sleep Sounds', link: '/Sleep_sound/Sleep_sound' }

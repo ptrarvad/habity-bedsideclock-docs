@@ -2,7 +2,7 @@
 Connect your bedside clock to your home Wi-Fi in order to use features such as Automatic Date & Time setup, updating firmware, and connecting to smart homes.
 
 ## Initial setup
-Your clock has its own WiFi that is uses to do the initial setup. Go to your Wi-Fi settings on your phone, tablet, or computer and look for "Habity setup_" and connect to the Wi-Fi.
+Your clock has its own WiFi that is uses to do the initial setup. Go to your Wi-Fi settings on your phone, tablet, or computer and look for "Habity setup_0123" and connect to the Wi-Fi.
 
 > [!NOTE]
 > **Can't see the Wi-Fi name?**
@@ -13,18 +13,19 @@ Your clock has its own WiFi that is uses to do the initial setup. Go to your Wi-
 
 ## Connect to your Wi-Fi
 Once connected to the clock's own Wi-Fi go to "More" > "Wi-Fi" > "Information" to see the web url you need to visit in your browser. It will be something like "habity.local" or https://192.168.4.1
+![habity-setup_192.168.4.1.png](../Assets/habity-setup_192.168.4.1.png)
 
 On this webpage you can see a list of available Wi-Fi networks. Select your home Wi-Fi and enter it's password and press "Save & reboot"
 
 > [!NOTE]
 > The Habity bedside clock can only connect to 2.4Ghz Wi-Fi. Most common home Wi-Fi should be accepted by default.
 
-## Visit web control page
-Once your clock have rebooted, and Wi-Fi credentials were correct and successfully connected, you may visit the control page.
+## Web control
+Once your clock have rebooted, and Wi-Fi credentials were correct and successfully connected, you may visit the web control site.
 
-On the control page you can update the firmware, see current firmware version, connect to smart homes, and update Wi-Fi settings.
+On the web control site you can update the firmware, see current firmware version, connect to smart homes, and update Wi-Fi settings.
 
-Go to "More" > "Wi-Fi" > "Information" to see the URL of your new control page. 
+Go to "More" > "Wi-Fi" > "Information" to see the URL of your new web control site. 
 
 > [!NOTE]
 > **Web browser warning**

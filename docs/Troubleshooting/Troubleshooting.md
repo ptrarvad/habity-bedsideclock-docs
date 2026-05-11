@@ -31,5 +31,7 @@ You can manually refresh the screen by restarting the clock.
 ## Reconnect to Wi-Fi after power outages
 If your home Wi-Fi goes down and disconnects from your clock you can trigger a new network search by disconnecting it from USB power temporarily.  Once your clock connects back to USB power it will try to look for any known Wi-Fi network and try to reconnect.
 
+# Other issues
+
 > [!NOTE]
 > Do you have an unresolved issue? Please reach out to the support at support@habity.design

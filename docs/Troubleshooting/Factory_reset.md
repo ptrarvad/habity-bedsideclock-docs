@@ -8,5 +8,5 @@ These actions will delete all your saved settings such as alarms and current tim
 Go to "More" > "Factory reset" > "Confirm reset"
 
 > [!NOTE]
-> This action deletes all your saved settings.
+> This action deletes all your saved settings and activates the travel lock.
 

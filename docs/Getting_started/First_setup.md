@@ -11,7 +11,7 @@ Once the clock have started charging its built-in battery it will update the dis
 
 ![travel-lock-1.png](../Assets/travel-lock-1.png)
 
-The clock is still in travel lock mode. To unlock it press and hold the button on the selector wheel for at least 5 sec. The clock will display a time once its unlocked and ready.
+The clock is still in travel lock mode. To unlock it press and hold the button on the selector wheel for at least 5 sec. The display will blink a few times and display a time once its unlocked and ready.
 
 ## 3. Set the current date & time
 Now that your clock is connected to power you might need to set the correct date & time for your location, as well as time format (24 or 12-hour).

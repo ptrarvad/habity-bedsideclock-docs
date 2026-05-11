@@ -1,8 +1,8 @@
 # How to set up your alarm
 Follow this guide to set up alarms on your bedside clock.
 
-## Schedule mode
-There is three modes to choose between when it comes to how or when the alarms should be active or repeat. 
+## Schedules
+There is three schedules to choose between when it comes to how and when the alarms should repeat. 
 
 **Repeat Daily**
 Repeats one alarm time every day.
@@ -15,9 +15,9 @@ Set individual alarm times for every day of the week. Individual days can be dis
 
 ![alarm-modes.png](../Assets/alarm-modes.png)
 
-Only once mode can be used at a time. Alarm times saved in each mode will persist when switching between modes.
+Only one schedule can be used at a time. Alarm times saved in each schedule mode will persist when switching between schedules.
 ## Select Sound
-Navigate through the sound options and hear a short excerpt of the sound at moderate volume. After selecting a sound you can save your desired volume. 
+Navigate through the sound options and hear a short excerpt of the sound at a moderate volume. After selecting a sound you can save your desired volume. 
 ## Wake-up light
 The wake-light function will gradually turn on the built-in nightlight before your alarm starts. 
 
@@ -26,7 +26,7 @@ By default this function is off. Choose between 1 minute, 5 minutes, 10 minutes,
 The setting is set for all enabled alarms no matter the schedule.
 
 > [!NOTE]
-> Learn how to connect your smart home lights to work in junction with the built-in wake-up light.
+> Learn how to connect your [smart home lights](Connectivity/Philips_Hue) to work in junction with the built-in wake-up light.
 
 ## Confirm your alarm
 Active alarms that are within the next 24 hours will show up below the current time on the main watch face. 
@@ -36,4 +36,4 @@ Times are shown in sequential order.
 
 ![Watch-face_w_alarm-time.png](../Assets/Watch-face_w_alarm-time.png)
 ## Controls
-Learn about controls for stopping, snoozing, and skipping alarm.
+Learn about [Controls](Getting_started/Controls.md) for stopping, snoozing, and skipping alarm.
