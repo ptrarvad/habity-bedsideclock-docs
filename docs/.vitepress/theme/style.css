@@ -19,8 +19,8 @@
 
 /* "User manual & support" - light Montserrat, dark color */
 .VPHero .text {
-  font-family: 'Montserrat', sans-serif !important;
-  font-weight: 300 !important;
+  font-family: 'Libre Baskerville', serif !important;
+  font-weight: 400 !important;
   color: var(--vp-c-text-1) !important;
 }
 
