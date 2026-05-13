@@ -6,7 +6,7 @@ hero:
   text: "User manual & support"
   tagline: "Everything you need to set up and get the most out of your Habity bedside clock."
   image:
-    src: https://habity.design/cdn/shop/files/Soft-white_front_2026-02-24.png?v=1772449307
+    src: https://habity.design/cdn/shop/files/web_hero_mobile_sky__white_adjusted_for_production_2026-02-04.png?v=1777003961&width=1500
     alt: Habity Bedside Clock
   actions:
     - theme: brand
