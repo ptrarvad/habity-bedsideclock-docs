@@ -291,7 +291,6 @@ h1, h2, h3, h4, h5, h6,
 .VPHero .image-src {
   width: 100% !important;
   height: 100% !important;
-  max-width: 380px !important;
   border-radius: 16px !important;
   box-shadow: 0 24px 48px rgba(0,0,0,0.15) !important;
 }
