@@ -26,7 +26,7 @@ Go to "More" > "Date & time". Use the selector wheel to navigate and enter setti
 Choose between "Manual" or "Automatic" setup by pressing the selector wheel and start setting up the date & time på selecting "Settings" and follow the instructions.
 
 > [!NOTE]
-> Automatic date & time requires WiFi connection. You must connect your bedside clock to WiFi to use this feature.
+> Automatic date & time requires [WiFi connection](/Connectivity/Connect_to_Wi-Fi). You must connect your bedside clock to WiFi to use this feature.
 > 
 > 
 
