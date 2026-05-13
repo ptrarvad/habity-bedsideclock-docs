@@ -22,6 +22,7 @@
   font-family: 'Libre Baskerville', serif !important;
   font-weight: 400 !important;
   color: var(--vp-c-text-1) !important;
+  margin-bottom: 24px !important;
 }
 
 /* ── SEARCH ─────────────────────────────────────────── */
@@ -288,7 +289,7 @@ h1, h2, h3, h4, h5, h6,
 
 /* ── HOMEPAGE HERO IMAGE ────────────────────────────── */
 .VPHero .image-src {
-  max-width: 280px !important;
+  max-width: 380px !important;
   border-radius: 16px !important;
   box-shadow: 0 24px 48px rgba(0,0,0,0.15) !important;
 }
