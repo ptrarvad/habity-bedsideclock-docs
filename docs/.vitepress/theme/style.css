@@ -290,6 +290,7 @@ h1, h2, h3, h4, h5, h6,
 /* ── HOMEPAGE HERO IMAGE ────────────────────────────── */
 .VPHero .image-src {
   max-width: 380px !important;
+  width: 100% !important;
   border-radius: 16px !important;
   box-shadow: 0 24px 48px rgba(0,0,0,0.15) !important;
 }
